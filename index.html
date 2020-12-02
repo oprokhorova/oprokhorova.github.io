@@ -1,177 +1,189 @@
 <!DOCTYPE html>
 <html>
+<head>
   <title>Ольга Прохорова - копирайтер</title>
   <link rel="icon" href="icons/favicon.png" type="image/x-icon">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="stylesheet" href="css/w3.css">
-  <link rel="stylesheet" href="css/cssbox.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Oswald&display=block" rel="stylesheet">
 
   <style>
-    /* Social media icons */
-    .social-icons {
-    text-align: center;
-    }
-    .social-icons li {
-    display:inline-block;
-    list-style-type:none;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    }
-    .social-icons li a {
-    border-bottom: none;
-    }
-    .social-icons li img {
-    width:70px;
-    height:70px;
-    margin-right: 20px;
-    }
-    body {font-family: "Times New Roman", Georgia, Serif;}
+    /* Text */
+    body {font-family: 'Noto Serif', serif;
+    color: rgb(80, 80, 80);}
     h1, h2, h3, h4, h5, h6 {
-    font-family: "Playfair Display";
-    letter-spacing: 5px;
+    font-family: 'Noto Serif', serif;
+    font-size: 30px;
+    line-height: 50px;
+    color: rgb(50, 50, 50);
     }
   </style>
 
-  <body>
-    <!-- Navbar (sit on top) -->
-    <div class="w3-top">
-      <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-        <a href="#home" class="w3-bar-item w3-button">Ольга Прохорова</a>
-        <!-- Right-sided navbar links. Hide them on small screens -->
-        <div class="w3-right w3-hide-small">
-          <a href="#home" class="w3-bar-item w3-button">Обо мне</a>
-          <a href="#menu" class="w3-bar-item w3-button">Услуги</a>
-          <a href="#portfolio" class="w3-bar-item w3-button">Портфолио</a>
-          <a href="#contact" class="w3-bar-item w3-button">Контакты</a>
-        </div>
+</head>
+
+<body>
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+      <a href="https://t.me/ProkhorovaO" target="_blank" rel="noopener noreferrer" class="w3-bar-item w3-button w3-hide-small"><img src="icons/090-telegram.png" width="20" height="20"></a>
+      <a href="https://wa.me/79650560919" target="_blank" rel="noopener noreferrer" class="w3-bar-item w3-button w3-hide-small"><img src="icons/109-whatsapp.png" width="20" height="20"></a>
+      <a href="https://viber.click/79650560919" target="_blank" rel="noopener noreferrer" class="w3-bar-item w3-button w3-hide-small"><img src="icons/101-viber.png" width="20" height="20"></a>
+
+      <!-- Right-sided navbar links. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="#service" class="w3-bar-item w3-button">Услуги</a>
+        <a href="#portfolio" class="w3-bar-item w3-button">Портфолио</a>
+        <a href="#comments" class="w3-bar-item w3-button">Отзывы</a>
+        <a href="#about" class="w3-bar-item w3-button">Обо мне</a>
+        <a href="#contact" class="w3-bar-item w3-button">Контакты</a>
       </div>
     </div>
+  </div>
 
-    <!-- Page content -->
-    <div class="w3-content" style="max-width:1100px">
+  <!-- Page content -->
+  <div class="w3-content" style="max-width:1100px">
 
-      <!-- Home Section -->
-      <div class="w3-row w3-padding-64" id="home">
-        <div class="w3-col m6 w3-padding-large">
-          <img src="images/me.jpg" class="w3-round w3-image" alt="Table Setting" width="400">
-        </div>
-        <div class="w3-col m6 w3-padding-large">
-          <h1 class="w3-center">Ольга Прохорова</h1>
-          <h5 class="w3-center">копирайтер</h5>
-          <p class="w3-large ">Привет, меня зовут Ольга!</p>
-          <p class="w3-large">Я – тот копирайтер, которого вы искали 😉</p>
-          <p class="w3-large">Пишу тексты, которые работают на вас и за вас 24 часа в сутки 💰</p>
-          <p class="w3-large">Придумываю слова и концепции, которые помогают вам выигрывать презентации и получать награды 🏆</p>
-          <p class="w3-large">Имею свой стиль и адаптирую его к любой работе ✍🏻</p>
-        </div>
-      </div>
-      <hr>
+    <!-- Home Section -->
+    <div class="w3-row" style="padding-top:64px!important;padding-bottom:12px!important" id="home">
+      <h1 class="w3-center" style="font-size: 50px; line-height: 50px; font-family: 'Oswald', sans-serif;">КОПИРАЙТЕР</h1>
+      <p class="w3-center" style="font-size: 35px; line-height: 50px; font-family: 'Oswald', sans-serif;">Ольга Прохорова</p>
+      <p class="w3-center" style="font-size: 20px; line-height: 35px;">Пишу тексты, которые работают 24 / 7</p>
+    </div>
 
-      <!-- Menu Section -->
-      <div class="w3-row w3-padding-large" id="menu">
-        <div class="w3-col l6 w3-padding-large">
-          <h1 class="w3-center">Что я делаю для вас</h1>
-          <h4>Я пишу</h4>
-          <ul class="w3-ul">
-            <li>Посты для соцсетей</li>
-            <li>Cторителлинг</li>
-            <li>Тексты для сайтов и лендингов</li>
-            <li>Тексты для E-mail и СМС рассылок, мессенджеров</li>
-            <li>Тексты для СМИ</li>
-            <li>Коммерческие предложения</li>
-            <li>Тексты для презентаций</li>
-          </ul>
-          <h4>Также</h4>
-          <ul class="w3-ul">
-            <li>Составляю контент-план</li>
-            <li>Редактирую тексты, делаю рерайтинг</li>
-          </ul>
-        </div>
-        <div class="w3-col l6 w3-padding-large">
-          <img src="images/notepad.jpg" class="w3-round w3-image" alt="Menu" style="width:80%">
-        </div>
-      </div>
-      <hr>
+    <hr id="service">
 
-      <!-- Portfolio Section -->
-      <div class="w3-row w3-padding-large" id="portfolio">
-        <div class="l6 w3-padding-large">
-          <h1 class="w3-center">Почему я</h1>
-          <h4>Клиенты говорят обо мне</h4>
-          <div class="w3-third l4 w3-padding-large">
-            <p class="w3-text-grey">О! как быстро справились! Здорово! Мне все нравится, обязательно воспользуюсь вашими материалами и опубликую. Всё правильно написано, инресная непринуждённая подача текста, мне понравились вопросы в конце 👍 Спасибо за идеи и за помощь 😉</p>
-          </div>
-          <div class="w3-third l4 w3-padding-large">
-            <p class="w3-text-grey">Ольга, огромное спасибо!
-              Честно говоря, были сомнения - сможете ли Вы не запутаться во всех этих ИТ-терминах. Не запутались!
-              Текст получился таким, каким мы его и хотели видеть - короткий, но "живой" и, как принято говорить, "продающий".
-              Обязательно воспользуемся вашими услугами еще раз. 😉
-            </p>
-          </div>
-        </div>
-        <div class="w3-row">
-          <div class="l6 w3-padding-large">
-            <h4>Работы говорят за меня</h4>
-            <!-- Examples -->
-            <div class="cssbox w3-third l4">
-              <p><i>Продажа тура</i></p>
-              <a id="image1" href="#image1"><img class="cssbox_thumb" src="images/tour.png" width="80%" />
-              <span class="cssbox_full"><img src="images/tour.png" /></span>
-              </a>
-              <a class="cssbox_close" href="#void"></a>
-              <a class="cssbox_next" href="#image2">&gt;</a>
-            </div>
-            <div class="cssbox w3-third l4">
-              <p><i>Рассылка</i></p>
-              <a id="image2" href="#image2"><img class="cssbox_thumb" src="images/mailing.png" width="80%" />
-              <span class="cssbox_full"><img src="images/mailing.png" /></span>
-              </a>
-              <a class="cssbox_close" href="#void"></a>
-              <a class="cssbox_prev" href="#image1">&lt;</a>
-              <a class="cssbox_next" href="#image3">&gt;</a>
-            </div>
-            <div class="cssbox w3-third l4">
-              <p><i>Пресс-релиз</i></p>
-              <a id="image3" href="#image3"><img class="cssbox_thumb" src="images/press-relise.png" width="80%" />
-              <span class="cssbox_full"><img src="images/press-relise.png" /></span>
-              </a>
-              <a class="cssbox_close" href="#void"></a>
-              <a class="cssbox_prev" href="#image2">&lt;</a>
-            </div>
-            <!-- Examples end -->
-          </div>
-        </div>
-        <div class="l6 w3-padding-large">
-          <p>Больше работ по ссылке <span class="w3-tag w3-light-grey"><a target="_blank" rel="noopener noreferrer" href="http://kutt.it/zqA127">http://kutt.it/zqA127</a></span></p>
-        </div>
-        <div class="l6 w3-padding-large">
-          <h4>Навыки, подтвержденные сертификатами</h4>
-          <ul class="w3-ul">
-            <li>2-х месячная программа «Профессия Копирайтер»</li>
-            <li>Курс «Тексты на миллион»</li>
-            <p class="w3-text-grey">От академии интернет-профессий FEEDBACK</p>
-          </ul>
-        </div>
-      </div>
-      <hr>
-      <!-- Contact Section -->
-      <div class="w3-container" id="contact">
-        <h1>Свяжитесь со мной</h1>
-        <p class="w3-large"><span style="background-color: #FFF380">Вау, первый текст <b>бесплатно</b>! 🙌🏼</span></p>
-        <p class="w3-text-blue-grey w3-large"><b>prokhorova_olga@mail.ru</b></p>
-        <ul class="social-icons">
-          <li><a href="https://t.me/ProkhorovaO" target="_blank" rel="noopener noreferrer"> <img alt="Telegram" src="icons/telegram.png" width=7%> </a></li>
-          <li><a href="https://wa.me/79650560919" target="_blank" rel="noopener noreferrer"> <img alt="WhatsApp" src="icons/whatsapp.png" width=7%> </a></li>
-          <li><a href="https://viber.click/79650560919" target="_blank" rel="noopener noreferrer"> <img alt="Viber" src="icons/viber.png" width=7%> </a></li>
+    <!-- Service Section -->
+    <div class="w3-row w3-padding-large">
+      <h2 class="w3-center">Чем я могу быть полезна</h2>
+
+      <div class=" w3-third">
+        <p style="font-weight: bold; color: rgb(50, 50, 50);">Работа с Instagram, Вконтакте, Facebook:</p>
+        <ul>
+          <li>Написание текстов для публикаций</li>
+          <li>Cторителлинг</li>
+          <li>Аудит профиля</li>
+          <li>Оформление шапки профиля</li>
+          <li>Составление контент-плана</li>
         </ul>
       </div>
-      <!-- End page content -->
+
+      <div class=" w3-third">
+        <p style="font-weight: bold; color: rgb(50, 50, 50);">Сайты:</p>
+        <ul>
+          <li>Тексты для сайтов</li>
+          <li>Аудит сайта</li>
+          <li>Карточка товара</li>
+        </ul>
+      </div>
+
+      <div class=" w3-third">
+        <p style="font-weight: bold; color: rgb(50, 50, 50);">Другое:</p>
+        <ul>
+          <li>Рерайтинг</li>
+          <li>Текст для e-mail и смс рассылки, мессенджеров</li>
+          <li>Транскрибация</li>
+        </ul>
+      </div>
     </div>
-    <br>
-    <!-- Footer -->
-    <footer class="w3-center w3-light-grey w3-padding-16">
-      <p>Все права защищены © 2020</p>
-    </footer>
-  </body>
+
+    <hr id="portfolio">
+
+    <!-- Portfolio Section -->
+    <div class="w3-row w3-padding-large">
+      <h2 class="w3-center">Примеры работ</h2>
+
+      <div class="w3-row w3-padding-large">
+        <div class="w3-half">
+          <p style="font-weight: bold; color: rgb(50, 50, 50)">Статья в Facebook для дистрибьютора кормов</p>
+          <img src="images/pet-food-ash.jpg" width="60%" style="border: 1px solid #555" alt="Статья в Facebook для дистрибьютора кормов">
+        </div>
+
+        <div class="w3-half">
+          <p style="font-weight: bold; color: rgb(50, 50, 50)">Реклама холистик корма</p>
+          <img src="images/pet-food-holistic.jpg" width="60%" style="border: 1px solid #555" alt="Реклама холистик корма">
+        </div>
+      </div>
+
+      <div class="w3-row w3-padding-large">
+        <div class="w3-half">
+          <p style="font-weight: bold; color: rgb(50, 50, 50)">Реклама студии массажа</p>
+          <img src="images/massage-1.jpg" width="60%" style="border: 1px solid #555" alt="Реклама студии массажа">
+        </div>
+
+        <div class="w3-half">
+          <p style="font-weight: bold; color: rgb(50, 50, 50)">Текст для студии массажа</p>
+          <img src="images/massage-2.jpg" width="60%" style="border: 1px solid #555" alt="Текст для студии массажа">
+        </div>
+      </div>
+
+      <p>Больше работ вы найдете <span class="w3-tag w3-light-grey"><a target="_blank" rel="noopener noreferrer" href="http://kutt.it/zqA127">тут</a></span></p>
+    </div>
+
+    <hr id="comments">
+
+    <div class="w3-row w3-padding-large">
+      <h2 class="w3-center">Отзывы</h2>
+
+      <div class="w3-third w3-padding">
+        <img src="images/comment-1.jpg" width="75%" style="border: 1px solid #555">
+      </div>
+
+      <div class="w3-third w3-padding">
+        <img src="images/comment-2.jpg" width="75%" style="border: 1px solid #555">
+      </div>
+
+      <div class="w3-third w3-padding">
+        <img src="images/comment-3.jpg" width="75%" style="border: 1px solid #555">
+      </div>
+    </div>
+
+    <hr id="about">
+
+    <!-- About Section -->
+    <div class="w3-row w3-padding-large">
+
+      <h2 class="w3-center">Обо мне</h2>
+
+      <div class="w3-half w3-padding">
+        <img src="images/me.jpg" class="w3-round w3-image" alt="Table Setting" width="350">
+      </div>
+
+      <div class="w3-half w3-padding">
+        <p>Здравствуйте!</p>
+        <p>Меня зовут Ольга.</p>
+        <p>Пишу тексты, которые помогут вам увеличить поток клиентов и продажи.</p>
+        <p>Ценю ваше время, поэтому соблюдаю сроки и требования к тексту.</p>
+        <p>Чтобы закрепить официальный статус копирайтера, прошла 2-х месячную программу «Профессия Копирайтер» от академии интернет-профессий FEEDBACK.</p>
+        <p>Регулярно повышаю уровень знаний и отрабатываю их на практике.</p>
+      </div>
+    </div>
+
+    <hr id="contact">
+
+    <!-- Contact Section -->
+    <div class="w3-row w3-padding-large">
+      <h2 class="w3-center">Контакты</h2>
+
+      <p class="w3-center w3-text-blue-grey w3-large"><b>prokhorova_olga@mail.ru</b></p>
+
+      <div class="w3-center">
+        <a href="https://t.me/ProkhorovaO" target="_blank" rel="noopener noreferrer" class="w3-bar-item w3-button"><img src="icons/090-telegram.png" width="40" height="40"></a>
+        <a href="https://wa.me/79650560919" target="_blank" rel="noopener noreferrer" class="w3-bar-item w3-button"><img src="icons/109-whatsapp.png" width="40" height="40"></a>
+        <a href="https://viber.click/79650560919" target="_blank" rel="noopener noreferrer" class="w3-bar-item w3-button"><img src="icons/101-viber.png" width="40" height="40"></a>
+      </div>
+    </div>
+    <!-- End of page content -->
+  </div>
+
+  <br>
+
+  <!-- Footer -->
+  <footer class="w3-center w3-light-grey w3-padding-16">
+    <p>© 2020 Ольга Прохорова</p>
+  </footer>
+</body>
 </html>
